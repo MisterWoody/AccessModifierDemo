@@ -19,6 +19,9 @@ namespace ConsoleUI
             // Internal demo is not accessible here either as this is a different project/assembly
 
             demo.PublicDemo(); // Public as expected can be accessed here when it's in a different assembly.
+
+            BadClass bad = new BadClass();
+            bad.creditCardNumber = "123456";   // This should never be done - information leakage with no protection to the property!
         }
 
         private static void SayHello()

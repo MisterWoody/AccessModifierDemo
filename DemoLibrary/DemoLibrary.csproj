@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessDemo.cs" />
+    <Compile Include="BadClass.cs" />
     <Compile Include="CallingDemo.cs" />
     <Compile Include="InheritFromAccessDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
