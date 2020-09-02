@@ -22,6 +22,8 @@ namespace ConsoleUI
 
             BadClass bad = new BadClass();
             bad.creditCardNumber = "123456";   // This should never be done - information leakage with no protection to the property!
+
+            Console.WriteLine(bad.SSN); // Good practice as this will show the filtered property - if _ssn was public we could inadvertently expose information that should be private.
         }
 
         private static void SayHello()
