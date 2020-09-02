@@ -12,6 +12,9 @@ namespace DemoLibrary
         private void Demo()
         {
             PrivateDemo(); // PrivateDemo is accessible to Demo
+
+            AccessDemo demo = new AccessDemo();
+            // demo. then demonstrates all the accessible methods from this method.
         }
 
         private void PrivateDemo()

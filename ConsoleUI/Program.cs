@@ -14,6 +14,8 @@ namespace ConsoleUI
 
             AccessDemo demo = new AccessDemo();
 
+            // demo. here shows a much reduced list of available options making things much clearer what can and can't be invoked.
+
             // PrivateDemo is not visible in this project!
 
             // Internal demo is not accessible here either as this is a different project/assembly
