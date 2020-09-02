@@ -41,7 +41,7 @@ namespace DemoLibrary
 
         public void PublicDemo()
         {
-
+            // This method can be called from outside this class (and project) and this methog in turjn can access PrivateDemo.
         }
     }
 }
