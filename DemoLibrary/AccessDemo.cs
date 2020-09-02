@@ -33,7 +33,7 @@ namespace DemoLibrary
 
         protected internal void ProtectedInternalDemo()
         {
-            // Can be accessed anywhere in same project and also any class that inherits from the declading class
+            // Can be accessed anywhere in same project and also any class that inherits from the declaring class
         }
 
         internal void InternalDemo()
