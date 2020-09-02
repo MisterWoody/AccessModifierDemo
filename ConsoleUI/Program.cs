@@ -17,6 +17,8 @@ namespace ConsoleUI
             // PrivateDemo is not visible in this project!
 
             // Internal demo is not accessible here either as this is a different project/assembly
+
+            demo.PublicDemo(); // Public as expected can be accessed here when it's in a different assembly.
         }
     }
 }

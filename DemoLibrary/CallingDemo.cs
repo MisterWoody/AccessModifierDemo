@@ -16,6 +16,11 @@ namespace DemoLibrary
             // Internal and protected internal are accessible here though (as well as public)
 
             demo.InternalDemo();
+
+            InheritFromAccessDemo demo2 = new InheritFromAccessDemo();
+            demo2.ProtectedInternalDemo();
+
+            
             
         }
     }

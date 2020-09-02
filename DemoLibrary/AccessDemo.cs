@@ -26,7 +26,8 @@ namespace DemoLibrary
 
         protected void ProtectedDemo()
         {
-
+            // Protected can be accessed within the declaring class or any class that is derived from it - 
+            // i.e. this is tied to inheritance.
         }
 
         protected internal void ProtectedInternalDemo()
