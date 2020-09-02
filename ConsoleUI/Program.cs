@@ -28,6 +28,8 @@ namespace ConsoleUI
             Console.WriteLine(bad.SSN); // Good practice as this will show the filtered property - if _ssn was public we could inadvertently expose information that should be private.
 
             bad.Age = 150; // Will in effect do nothing anbd be rejected. If we could get to _age then that property loses its protection and validation
+
+            SayHello();  // Can invoke a provate method within the same class.
         }
 
         private static void SayHello()
