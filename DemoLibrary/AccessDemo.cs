@@ -36,7 +36,7 @@ namespace DemoLibrary
 
         internal void InternalDemo()
         {
-
+            // Broader scope than private - it can be accessed from the project or assembly it is declared in.
         }
 
         public void PublicDemo()

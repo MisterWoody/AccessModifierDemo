@@ -15,6 +15,8 @@ namespace ConsoleUI
             AccessDemo demo = new AccessDemo();
 
             // PrivateDemo is not visible in this project!
+
+            // Internal demo is not accessible here either as this is a different project/assembly
         }
     }
 }
