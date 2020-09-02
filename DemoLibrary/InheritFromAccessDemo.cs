@@ -11,9 +11,11 @@ namespace DemoLibrary
         public void Test()
         {
             ProtectedDemo(); // Protected method is accessible here
-            InternalDemo();
+            InternalDemo(); // And also the internal protected metod
 
             // But PrivateDemo is not accessible
+
+            PrivateProtectedDemo(); // Is accessible
         }
     }
 }

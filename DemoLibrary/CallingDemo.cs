@@ -20,7 +20,7 @@ namespace DemoLibrary
             InheritFromAccessDemo demo2 = new InheritFromAccessDemo();
             demo2.ProtectedInternalDemo();
 
-            
+            // Cannot call private protected method from here that is in the same assembly
             
         }
     }

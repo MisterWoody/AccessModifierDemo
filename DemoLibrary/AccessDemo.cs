@@ -21,6 +21,7 @@ namespace DemoLibrary
 
         private protected void PrivateProtectedDemo()
         {
+            // Only available in access demo
 
         }
 
