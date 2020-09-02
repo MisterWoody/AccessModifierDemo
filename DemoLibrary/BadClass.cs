@@ -24,5 +24,21 @@ namespace DemoLibrary
             set { _ssn = value; }
         }
 
+        private int _age;
+
+        public int Age
+        {
+            get { return _age; }
+            set 
+            { 
+                if (value >= 0 && value < 130) // Some validation on the age rather than blindly setting the property and potentially introducing bugs
+                {
+                    _age = value;
+
+                }
+            }
+        }
+
+
     }
 }
