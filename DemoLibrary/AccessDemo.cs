@@ -8,6 +8,12 @@ namespace DemoLibrary
 {
     public class AccessDemo
     {
+
+        private void Demo()
+        {
+            PrivateDemo(); // PrivateDemo is accessible to Demo
+        }
+
         private void PrivateDemo()
         {
             

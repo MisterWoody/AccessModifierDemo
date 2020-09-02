@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DemoLibrary;
 
 namespace ConsoleUI
 {
@@ -10,6 +11,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+
+            AccessDemo demo = new AccessDemo();
+
+            // PrivateDemo is not visible in this project!
         }
     }
 }
