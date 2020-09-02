@@ -20,5 +20,10 @@ namespace ConsoleUI
 
             demo.PublicDemo(); // Public as expected can be accessed here when it's in a different assembly.
         }
+
+        private static void SayHello()
+        {
+            Console.WriteLine("Hello user");
+        }
     }
 }
