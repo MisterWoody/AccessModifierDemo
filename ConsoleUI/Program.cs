@@ -24,6 +24,8 @@ namespace ConsoleUI
             bad.creditCardNumber = "123456";   // This should never be done - information leakage with no protection to the property!
 
             Console.WriteLine(bad.SSN); // Good practice as this will show the filtered property - if _ssn was public we could inadvertently expose information that should be private.
+
+            bad.Age = 150; // Will in effect do nothing anbd be rejected. If we could get to _age then that property loses its protection and validation
         }
 
         private static void SayHello()
