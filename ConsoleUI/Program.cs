@@ -29,7 +29,7 @@ namespace ConsoleUI
 
             bad.Age = 150; // Will in effect do nothing anbd be rejected. If we could get to _age then that property loses its protection and validation
 
-            SayHello();  // Can invoke a provate method within the same class.
+            SayHello();  // Can invoke a private method within the same class.
         }
 
         private static void SayHello()
